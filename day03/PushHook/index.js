@@ -9,12 +9,12 @@ module.exports = async function (context, req) {
 
             if (commit.added && commit.added.length > 0) {
                 var fileNames = commit.added;
-                processChanges(fileNames, 'a', context, commitId);
+                processChanges(fileNames, 'add', context, commitId);
             }
 
             if (commit.modified && commit.modified.length > 0) {
                 var fileNames = commit.modified;
-                processChanges(fileNames, 'm', context, commitId);
+                processChanges(fileNames, 'mod', context, commitId);
             }
         });
     }
@@ -24,13 +24,14 @@ module.exports = async function (context, req) {
     };
 };
 
-function processChanges(fileNames, prefix, context, commitId) {
+function processChanges(fileNames, commitType, context, commitId) {
     var inc = 0;
     fileNames.forEach(fileName => {
         if (fileName.endsWith('.png')) {
             context.bindings.outputTable.push({
                 PartitionKey: "Part01",
-                RowKey: commitId + prefix + inc++,
+                RowKey: commitId + commitType + inc++,
+                CommitType: commitType,
                 ImageURL: fileName
             });
         }

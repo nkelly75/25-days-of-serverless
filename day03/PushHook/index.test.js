@@ -32,11 +32,14 @@ test('should handle a commit', async () => {
     expect(context.res.body).toBe('Processed');
     expect(context.bindings.outputTable.length).toBe(3);
     expect(context.bindings.outputTable[0].ImageURL).toBe('day03/test/puppy.png');
-    expect(context.bindings.outputTable[0].RowKey).toBe('ad4c22d2c663953ab72d2e12411314662c404d81a0');
+    expect(context.bindings.outputTable[0].RowKey).toBe('ad4c22d2c663953ab72d2e12411314662c404d81add0');
+    expect(context.bindings.outputTable[0].CommitType).toBe('add');
     expect(context.bindings.outputTable[1].ImageURL).toBe('day03/test/kitten.png');
-    expect(context.bindings.outputTable[1].RowKey).toBe('ad4c22d2c663953ab72d2e12411314662c404d81m0');
+    expect(context.bindings.outputTable[1].RowKey).toBe('ad4c22d2c663953ab72d2e12411314662c404d81mod0');
+    expect(context.bindings.outputTable[1].CommitType).toBe('mod');
     expect(context.bindings.outputTable[2].ImageURL).toBe('day03/test/goldfish.png');
-    expect(context.bindings.outputTable[2].RowKey).toBe('ad4c22d2c663953ab72d2e12411314662c404d81m1');
+    expect(context.bindings.outputTable[2].RowKey).toBe('ad4c22d2c663953ab72d2e12411314662c404d81mod1');
+    expect(context.bindings.outputTable[2].CommitType).toBe('mod');
 });
 
 test('should handle a different webhook', async () => {
