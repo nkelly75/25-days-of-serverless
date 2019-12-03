@@ -20,3 +20,7 @@ Here are some commits on my repo:
 Here's the table storage screenshot:
 
 ![table storage gifts table](/day03/gifts_table.png)
+
+Note timestamp of first 3 from same commit whereas selected record from second commit above was several minutes later. 
+
+Also after the 3rd commit above there's a 5th record in the 'gifts' table for gifts_table.png.
