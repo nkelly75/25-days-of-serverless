@@ -1,5 +1,6 @@
 module.exports = async function (context, req) {
 
+    context.log('hook invoked');
     context.bindings.outputTable = [];
 
     if (req.body && req.body.commits && req.body.commits.length > 0) {
@@ -17,6 +18,8 @@ module.exports = async function (context, req) {
                 processChanges(fileNames, 'mod', context, commitId);
             }
         });
+
+        context.log('pngs included: ' + context.bindings.outputTable.length);
     }
 
     context.res = {
