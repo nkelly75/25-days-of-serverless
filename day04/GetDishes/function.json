@@ -1,0 +1,28 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "route": "dishes",
+      "methods": [
+        "get"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "in",
+      "name": "dishes",
+      "databaseName": "potluck",
+      "collectionName": "MyCollection",
+      "connectionStringSetting": "MyAccount_COSMOSDB",
+      "partitionKey": "/friend"
+    }
+  ]
+}
