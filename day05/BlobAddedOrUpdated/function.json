@@ -1,0 +1,18 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "santa-letters/{name}",
+      "connection": "letters_STORAGE"
+    },
+    {
+      "type": "blob",
+      "direction": "out",
+      "name": "outputBlob",
+      "path": "santa-verdict/{name}",
+      "connection": "letters_STORAGE"
+    }
+  ]
+}
