@@ -5,7 +5,7 @@
 -   Use Azure Function with input trigger from blob storage and output binding to blob storage
 -   input from santa-letters container
 -   output to santa-verdict container (same filename as input)
--   The sample from the challenge had multiple "messages" from the same kid identified by "who". Decided to pre-process this so each kid's messages were concatenated and the sentiment was determined for all of their messages
+-   The [sample](https://christmaswishes.azurewebsites.net/api/Wishes) from the [challenge](https://25daysofserverless.com/calendar/5) had multiple "messages" from the same kid identified by "who". Decided to pre-process this (in my code) so each kid's messages were concatenated and the sentiment was determined for ALL of their messages
 -   Out of interest I kept intermediate info e.g. full language detected, individual messages etc.
 
 ## Results
