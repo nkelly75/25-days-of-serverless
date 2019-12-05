@@ -1,0 +1,87 @@
+[
+    {
+        "id": "0",
+        "text": "my little brother is so annoying and stupid. I really like the bike I got for a present. The food is really bad at home, I'd rather go to McDonalds",
+        "messages": [
+            "my little brother is so annoying and stupid",
+            "I really like the bike I got for a present",
+            "The food is really bad at home, I'd rather go to McDonalds"
+        ],
+        "kid": "Adam",
+        "language": "en",
+        "languageFull": "English",
+        "sentScore": 0.029701322317123413,
+        "verdict": "naughty"
+    },
+    {
+        "id": "1",
+        "text": "Eu odeio limpar meu quarto. meu professor é legal. o cachorro vizinho é estúpido e fedorento",
+        "messages": [
+            "Eu odeio limpar meu quarto",
+            "meu professor é legal",
+            "o cachorro vizinho é estúpido e fedorento"
+        ],
+        "kid": "Eva",
+        "language": "pt",
+        "languageFull": "Portuguese",
+        "sentScore": 0,
+        "verdict": "naughty"
+    },
+    {
+        "id": "2",
+        "text": "mina föräldrar är verkligen inte bra på tekniska saker. min lillasyster är jobbig. kan vi äta nåt annat än köttbullar?",
+        "messages": [
+            "mina föräldrar är verkligen inte bra på tekniska saker",
+            "min lillasyster är jobbig",
+            "kan vi äta nåt annat än köttbullar?"
+        ],
+        "kid": "jenifer",
+        "language": "sv",
+        "languageFull": "Swedish",
+        "sentScore": 0.02380952425301075,
+        "verdict": "naughty"
+    },
+    {
+        "id": "3",
+        "text": "Me gusta mi futbol. Desearía tener un perro. papá y Santa son similares",
+        "messages": [
+            "Me gusta mi futbol",
+            "Desearía tener un perro",
+            "papá y Santa son similares"
+        ],
+        "kid": "sergio",
+        "language": "es",
+        "languageFull": "Spanish",
+        "sentScore": 0.5088890790939331,
+        "verdict": "neutral"
+    },
+    {
+        "id": "4",
+        "text": "爸爸和圣诞老人​​很相似. 我讨厌饭. 我喜欢我的小妹妹，她好可爱",
+        "messages": [
+            "爸爸和圣诞老人​​很相似",
+            "我讨厌饭",
+            "我喜欢我的小妹妹，她好可爱"
+        ],
+        "kid": "tracy",
+        "language": "zh_chs",
+        "languageFull": "Chinese_Simplified",
+        "sentScore": 0.4482493996620178,
+        "verdict": "neutral"
+    },
+    {
+        "id": "5",
+        "text": "I love reading. I love my little brother. I am very polite. I never cause trouble",
+        "messages": [
+            "I love reading",
+            "I love my little brother",
+            "I am very polite",
+            "I never cause trouble"
+        ],
+        "kid": "emma",
+        "language": "en",
+        "languageFull": "English",
+        "sentScore": 0.9290472269058228,
+        "verdict": "nice"
+    }
+]
