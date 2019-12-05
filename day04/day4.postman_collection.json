@@ -1,0 +1,167 @@
+{
+	"info": {
+		"_postman_id": "42a9502c-6541-42d5-beb4-d22e53ab03d1",
+		"name": "25DaysofServerless",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateDish",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"salad\",\n\t\"friend\": \"bob\"\n}"
+				},
+				"url": {
+					"raw": "{{origin}}/api/dishes",
+					"host": [
+						"{{origin}}"
+					],
+					"path": [
+						"api",
+						"dishes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateDish2",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"pavlova\",\n\t\"friend\": \"irene\"\n}"
+				},
+				"url": {
+					"raw": "{{origin}}/api/dishes",
+					"host": [
+						"{{origin}}"
+					],
+					"path": [
+						"api",
+						"dishes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateDish3",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"fruit salad\",\n\t\"friend\": \"irene\"\n}"
+				},
+				"url": {
+					"raw": "{{origin}}/api/dishes",
+					"host": [
+						"{{origin}}"
+					],
+					"path": [
+						"api",
+						"dishes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ChangeDish",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"ribs mmmm\",\n\t\"friend\": \"bob\"\n}"
+				},
+				"url": {
+					"raw": "{{origin}}/api/dishes/ec6af040-16e3-11ea-be54-a5eba03b9e59",
+					"host": [
+						"{{origin}}"
+					],
+					"path": [
+						"api",
+						"dishes",
+						"ec6af040-16e3-11ea-be54-a5eba03b9e59"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RemoveDish",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"ribs mmmm\",\n\t\"friend\": \"bob\"\n}"
+				},
+				"url": {
+					"raw": "{{origin}}/api/dishes/317804e0-16f1-11ea-9a80-2780d2f08824",
+					"host": [
+						"{{origin}}"
+					],
+					"path": [
+						"api",
+						"dishes",
+						"317804e0-16f1-11ea-9a80-2780d2f08824"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetDIshes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{origin}}/api/dishes",
+					"host": [
+						"{{origin}}"
+					],
+					"path": [
+						"api",
+						"dishes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
