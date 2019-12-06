@@ -1,8 +1,0 @@
-{
-    "id": "53f8c8ed89ea4459a2e3d79f7261ec17",
-    "statusQueryGetUri": "https://ngk25dos06.azurewebsites.net/runtime/webhooks/durabletask/instances/53f8c8ed89ea4459a2e3d79f7261ec17?taskHub=DurableFunctionsHub&connection=Storage&code=nAPYEnziiQHEZKsopOPQtD/8lSsj8BT91kI1J6QDVkKfzdPFwyIOgQ==",
-    "sendEventPostUri": "https://ngk25dos06.azurewebsites.net/runtime/webhooks/durabletask/instances/53f8c8ed89ea4459a2e3d79f7261ec17/raiseEvent/{eventName}?taskHub=DurableFunctionsHub&connection=Storage&code=nAPYEnziiQHEZKsopOPQtD/8lSsj8BT91kI1J6QDVkKfzdPFwyIOgQ==",
-    "terminatePostUri": "https://ngk25dos06.azurewebsites.net/runtime/webhooks/durabletask/instances/53f8c8ed89ea4459a2e3d79f7261ec17/terminate?reason={text}&taskHub=DurableFunctionsHub&connection=Storage&code=nAPYEnziiQHEZKsopOPQtD/8lSsj8BT91kI1J6QDVkKfzdPFwyIOgQ==",
-    "rewindPostUri": "https://ngk25dos06.azurewebsites.net/runtime/webhooks/durabletask/instances/53f8c8ed89ea4459a2e3d79f7261ec17/rewind?reason={text}&taskHub=DurableFunctionsHub&connection=Storage&code=nAPYEnziiQHEZKsopOPQtD/8lSsj8BT91kI1J6QDVkKfzdPFwyIOgQ==",
-    "purgeHistoryDeleteUri": "https://ngk25dos06.azurewebsites.net/runtime/webhooks/durabletask/instances/53f8c8ed89ea4459a2e3d79f7261ec17?taskHub=DurableFunctionsHub&connection=Storage&code=nAPYEnziiQHEZKsopOPQtD/8lSsj8BT91kI1J6QDVkKfzdPFwyIOgQ=="
-}

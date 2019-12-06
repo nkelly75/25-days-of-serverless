@@ -8,8 +8,9 @@
  module.exports = df.orchestrator(function* (context) {
     const input = context.df.getInput();
 
-    // TODO -- 1
-    yield context.df.createTimer(new Date(input.startAt))
+    context.log(`Orchestrator: before createTimer`);
+    yield context.df.createTimer(new Date(input.startDate));
   
-    return yield context.df.callActivity('sendMail', input);
+    context.log(`Orchestrator: before callActivity`);
+    return yield context.df.callActivity('sendNotification', input);
 });
