@@ -1,0 +1,158 @@
+2019-12-06T10:23:04.464 [Information] Host Status: {
+  "id": "ngk25dos06",
+  "state": "Running",
+  "version": "2.0.12888.0",
+  "versionDetails": "2.0.12888.0 Commit hash: 107be00e9a1d752c4a4ee2c3f0d03580d09d2c40",
+  "processUptime": 672867,
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "1.1.1"
+  }
+}
+2019-12-06T10:23:58  PID[5804] Information Sending response: 200.0 OK
+2019-12-06T10:24:03.857 [Information] Host Status: {
+  "id": "ngk25dos06",
+  "state": "Running",
+  "version": "2.0.12888.0",
+  "versionDetails": "2.0.12888.0 Commit hash: 107be00e9a1d752c4a4ee2c3f0d03580d09d2c40",
+  "processUptime": 732261,
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "1.1.1"
+  }
+}
+2019-12-06T10:25:04.341 [Information] Host Status: {
+  "id": "ngk25dos06",
+  "state": "Running",
+  "version": "2.0.12888.0",
+  "versionDetails": "2.0.12888.0 Commit hash: 107be00e9a1d752c4a4ee2c3f0d03580d09d2c40",
+  "processUptime": 792745,
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "1.1.1"
+  }
+}
+2019-12-06T10:26:03.795 [Information] Host Status: {
+  "id": "ngk25dos06",
+  "state": "Running",
+  "version": "2.0.12888.0",
+  "versionDetails": "2.0.12888.0 Commit hash: 107be00e9a1d752c4a4ee2c3f0d03580d09d2c40",
+  "processUptime": 852199,
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "1.1.1"
+  }
+}
+2019-12-06T10:27:04.509 [Information] Host Status: {
+  "id": "ngk25dos06",
+  "state": "Running",
+  "version": "2.0.12888.0",
+  "versionDetails": "2.0.12888.0 Commit hash: 107be00e9a1d752c4a4ee2c3f0d03580d09d2c40",
+  "processUptime": 912913,
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "1.1.1"
+  }
+}
+2019-12-06T10:27:17.893 [Information] Executing 'Functions.schedule' (Reason='This function was programmatically called via the host APIs.', Id=61e660bf-b978-40ee-bade-95c75c2beab4)
+2019-12-06T10:27:17.893 [Information] Executing 'Functions.schedule' (Reason='This function was programmatically called via the host APIs.', Id=61e660bf-b978-40ee-bade-95c75c2beab4)
+2019-12-06T10:27:18  PID[5804] Information Sending response: 400.0 Bad Request
+2019-12-06T10:27:19  PID[9644] Information The Modules dll of version 1.2.1 has already been loaded.
+2019-12-06T10:27:19  PID[9644] Information TLS 1.2 enabled.
+2019-12-06T10:27:24.552 [Information] Started orchestration with ID = '53f8c8ed89ea4459a2e3d79f7261ec17'.
+2019-12-06T10:27:24.634 [Information] Executed 'Functions.schedule' (Succeeded, Id=61e660bf-b978-40ee-bade-95c75c2beab4)
+2019-12-06T10:27:24.552 [Information] Started orchestration with ID = '53f8c8ed89ea4459a2e3d79f7261ec17'.
+2019-12-06T10:27:24.634 [Information] Executed 'Functions.schedule' (Succeeded, Id=61e660bf-b978-40ee-bade-95c75c2beab4)
+2019-12-06T10:27:45.705 [Information] Executing 'Functions.scheduleOrchestrator' (Reason='', Id=ff46c491-191f-453c-a31a-8c386d16c882)
+2019-12-06T10:27:45.863 [Information] Executed 'Functions.scheduleOrchestrator' (Succeeded, Id=ff46c491-191f-453c-a31a-8c386d16c882)
+2019-12-06T10:27:45.705 [Information] Executing 'Functions.scheduleOrchestrator' (Reason='', Id=ff46c491-191f-453c-a31a-8c386d16c882)
+2019-12-06T10:27:45.749 [Information] 53f8c8ed89ea4459a2e3d79f7261ec17: Function 'scheduleOrchestrator (Orchestrator)' started. IsReplay: False. Input: (480 bytes). State: Started. HubName: DurableFunctionsHub. AppName: ngk25dos06. SlotName: Production. ExtensionVersion: 1.8.3. SequenceNumber: 2.
+2019-12-06T10:27:45.848 [Information] 53f8c8ed89ea4459a2e3d79f7261ec17: Function 'scheduleOrchestrator (Orchestrator)' is waiting for input. Reason: CreateTimer:2019-12-06T10:28:00.0000000Z. IsReplay: False. State: Listening. HubName: DurableFunctionsHub. AppName: ngk25dos06. SlotName: Production. ExtensionVersion: 1.8.3. SequenceNumber: 3.
+2019-12-06T10:27:45.863 [Information] Executed 'Functions.scheduleOrchestrator' (Succeeded, Id=ff46c491-191f-453c-a31a-8c386d16c882)
+2019-12-06T10:28:04.242 [Information] Host Status: {
+  "id": "ngk25dos06",
+  "state": "Running",
+  "version": "2.0.12888.0",
+  "versionDetails": "2.0.12888.0 Commit hash: 107be00e9a1d752c4a4ee2c3f0d03580d09d2c40",
+  "processUptime": 972642,
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "1.1.1"
+  }
+}
+2019-12-06T10:28:12.756 [Information] Executing 'Functions.scheduleOrchestrator' (Reason='', Id=c2a7d1bc-85e9-4a50-b08b-f4916ea630d5)
+2019-12-06T10:28:12.854 [Information] Executed 'Functions.scheduleOrchestrator' (Succeeded, Id=c2a7d1bc-85e9-4a50-b08b-f4916ea630d5)
+2019-12-06T10:28:12.938 [Information] Executing 'Functions.sendMail' (Reason='', Id=99a09bab-0b2a-466c-bf51-ee5af8d3a02a)
+2019-12-06T10:28:13.019 [Information] Executed 'Functions.sendMail' (Succeeded, Id=99a09bab-0b2a-466c-bf51-ee5af8d3a02a)
+2019-12-06T10:28:12.756 [Information] Executing 'Functions.scheduleOrchestrator' (Reason='', Id=c2a7d1bc-85e9-4a50-b08b-f4916ea630d5)
+2019-12-06T10:28:12.781 [Information] 53f8c8ed89ea4459a2e3d79f7261ec17: Function 'scheduleOrchestrator (Orchestrator)' was resumed by a timer scheduled for '2019-12-06T10:28:00.0000000Z'. IsReplay: False. State: TimerExpired. HubName: DurableFunctionsHub. AppName: ngk25dos06. SlotName: Production. ExtensionVersion: 1.8.3. SequenceNumber: 4.
+2019-12-06T10:28:12.846 [Information] 53f8c8ed89ea4459a2e3d79f7261ec17: Function 'sendMail (Activity)' scheduled. Reason: scheduleOrchestrator. IsReplay: False. State: Scheduled. HubName: DurableFunctionsHub. AppName: ngk25dos06. SlotName: Production. ExtensionVersion: 1.8.3. SequenceNumber: 5.
+2019-12-06T10:28:12.854 [Information] Executed 'Functions.scheduleOrchestrator' (Succeeded, Id=c2a7d1bc-85e9-4a50-b08b-f4916ea630d5)
+2019-12-06T10:28:12.928 [Information] 53f8c8ed89ea4459a2e3d79f7261ec17: Function 'sendMail (Activity)' started. IsReplay: False. Input: (488 bytes). State: Started. HubName: DurableFunctionsHub. AppName: ngk25dos06. SlotName: Production. ExtensionVersion: 1.8.3. SequenceNumber: 6.
+2019-12-06T10:28:12.938 [Information] Executing 'Functions.sendMail' (Reason='', Id=99a09bab-0b2a-466c-bf51-ee5af8d3a02a)
+2019-12-06T10:28:13.019 [Information] Executed 'Functions.sendMail' (Succeeded, Id=99a09bab-0b2a-466c-bf51-ee5af8d3a02a)
+2019-12-06T10:28:13.029 [Information] 53f8c8ed89ea4459a2e3d79f7261ec17: Function 'sendMail (Activity)' completed. ContinuedAsNew: False. IsReplay: False. Output: (1016 bytes). State: Completed. HubName: DurableFunctionsHub. AppName: ngk25dos06. SlotName: Production. ExtensionVersion: 1.8.3. SequenceNumber: 7.
+2019-12-06T10:28:13.125 [Information] (node:6772) UnhandledPromiseRejectionWarning: Error: Unauthorized
+2019-12-06T10:28:13.126 [Information] at Request.http [as _callback] (D:\home\site\wwwroot\node_modules\@sendgrid\client\src\classes\client.js:124:25)
+2019-12-06T10:28:13.126 [Information] at Request.self.callback (D:\home\site\wwwroot\node_modules\request\request.js:185:22)
+2019-12-06T10:28:13.130 [Information] at emitTwo (events.js:126:13)
+2019-12-06T10:28:13.130 [Information] at Request.emit (events.js:214:7)
+2019-12-06T10:28:13.131 [Information] at Request.<anonymous> (D:\home\site\wwwroot\node_modules\request\request.js:1161:10)
+2019-12-06T10:28:13.131 [Information] at emitOne (events.js:116:13)
+2019-12-06T10:28:13.131 [Information] at Request.emit (events.js:211:7)
+2019-12-06T10:28:13.131 [Information] at IncomingMessage.<anonymous> (D:\home\site\wwwroot\node_modules\request\request.js:1083:12)
+2019-12-06T10:28:13.131 [Information] at Object.onceWrapper (events.js:313:30)
+2019-12-06T10:28:13.132 [Information] at emitNone (events.js:111:20)
+2019-12-06T10:28:13.132 [Information] (node:6772) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+2019-12-06T10:28:13.132 [Information] (node:6772) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+2019-12-06T10:28:13.203 [Information] Executing 'Functions.scheduleOrchestrator' (Reason='', Id=4f2d4776-6322-44d7-91cc-2383ad016523)
+2019-12-06T10:28:13.221 [Information] 53f8c8ed89ea4459a2e3d79f7261ec17: Function 'scheduleOrchestrator (Orchestrator)' was resumed by a timer scheduled for '2019-12-06T10:28:00.0000000Z'. IsReplay: True. State: TimerExpired. HubName: DurableFunctionsHub. AppName: ngk25dos06. SlotName: Production. ExtensionVersion: 1.8.3. SequenceNumber: 8.
+2019-12-06T10:28:13.249 [Information] 53f8c8ed89ea4459a2e3d79f7261ec17: Function 'scheduleOrchestrator (Orchestrator)' completed. ContinuedAsNew: False. IsReplay: False. Output: (1016 bytes). State: Completed. HubName: DurableFunctionsHub. AppName: ngk25dos06. SlotName: Production. ExtensionVersion: 1.8.3. SequenceNumber: 9.
+2019-12-06T10:28:13.250 [Information] Executed 'Functions.scheduleOrchestrator' (Succeeded, Id=4f2d4776-6322-44d7-91cc-2383ad016523)
+2019-12-06T10:28:13.203 [Information] Executing 'Functions.scheduleOrchestrator' (Reason='', Id=4f2d4776-6322-44d7-91cc-2383ad016523)
+2019-12-06T10:28:13.250 [Information] Executed 'Functions.scheduleOrchestrator' (Succeeded, Id=4f2d4776-6322-44d7-91cc-2383ad016523)
+2019-12-06T10:28:49  Startup Request, url: /, method: GET, type: request, pid: 5896,2,6, SCM_SKIP_SSL_VALIDATION: 0, ScmType: None
+2019-12-06T10:29:05.421 [Information] Host Status: {
+  "id": "ngk25dos06",
+  "state": "Running",
+  "version": "2.0.12888.0",
+  "versionDetails": "2.0.12888.0 Commit hash: 107be00e9a1d752c4a4ee2c3f0d03580d09d2c40",
+  "processUptime": 1033825,
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "1.1.1"
+  }
+}
+2019-12-06T10:30:04.012 [Information] Host Status: {
+  "id": "ngk25dos06",
+  "state": "Running",
+  "version": "2.0.12888.0",
+  "versionDetails": "2.0.12888.0 Commit hash: 107be00e9a1d752c4a4ee2c3f0d03580d09d2c40",
+  "processUptime": 1092416,
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "1.1.1"
+  }
+}
+2019-12-06T10:31:04.054 [Information] Host Status: {
+  "id": "ngk25dos06",
+  "state": "Running",
+  "version": "2.0.12888.0",
+  "versionDetails": "2.0.12888.0 Commit hash: 107be00e9a1d752c4a4ee2c3f0d03580d09d2c40",
+  "processUptime": 1152458,
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "1.1.1"
+  }
+}
+2019-12-06T10:32:04.069 [Information] Host Status: {
+  "id": "ngk25dos06",
+  "state": "Running",
+  "version": "2.0.12888.0",
+  "versionDetails": "2.0.12888.0 Commit hash: 107be00e9a1d752c4a4ee2c3f0d03580d09d2c40",
+  "processUptime": 1212473,
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "1.1.1"
+  }
+}
