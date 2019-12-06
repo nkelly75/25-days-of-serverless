@@ -17,9 +17,9 @@ test('should handle json', async() => {
 
     expect(testContext.log.mock.calls.length).toBe(1);
 
-    console.dir(testContext.bindings.outputBlob);
-    expect(testContext.bindings.outputBlob.length).toBeGreaterThan(10);
-    // console.log(JSON.stringify(testContext.log.mock.calls, null, 2));
+    var results = JSON.parse(testContext.bindings.outputBlob)
+    expect(results[0].kid).toBe('Adam');
+    expect(results[0].verdict).toBe('naughty');
 });
 
 
