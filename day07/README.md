@@ -3,6 +3,7 @@
 Implementing challenge for Day 7 defined [here](https://25daysofserverless.com/calendar/7)
 
 Live UI here: https://niall25days07.z16.web.core.windows.net/ (e.g. type Trash in the box)
+
 Function here: https://ngk25dos07.azurewebsites.net/api/ImageSearch?code=R3KMbSSkWj2WQOVlN0NRifcjohatOZmbkFYzlP8FRTf9abxWnHpiFQ==&text=shark
 
 The UI is also "serverless" in that its hosted as a static site on a storage account.
