@@ -3,26 +3,31 @@ import axios from 'axios';
 import SearchBar from './SearchBar';
 import ImageList from './ImageList';
 
+const IMAGE_SEARCH_FUNC = 'https://ngk25dos07.azurewebsites.net/api/ImageSearch?code=R3KMbSSkWj2WQOVlN0NRifcjohatOZmbkFYzlP8FRTf9abxWnHpiFQ==';
+
 class App extends React.Component {
 
     state = { images: [] };
 
     onSearchSubmit = async (term) => {
-        const response = await axios.get('https://api.unsplash.com/search/photos', {
-            params: { query: term, per_page: 1 },
-            headers: {
-                Authorization: 'Client-ID hidden'
-            }
-        });
 
-        this.setState({ images: response.data.results });
+        const headers = {
+            'Content-Type': 'application/json'
+        };
+
+        const response = await axios.get(IMAGE_SEARCH_FUNC + '&text=' + term,
+            {
+                headers:
+                    headers
+            });
+
+        this.setState({ images: response.data });
     }
 
     render() {
         return (
             <div>
                 <SearchBar userSubmit={this.onSearchSubmit} />
-                {/* <span>Found: {this.state.images.length} images</span> */}
                 <ImageList foundImages={this.state.images} />
             </div>
         )

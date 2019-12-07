@@ -17,7 +17,7 @@ class SearchBar extends React.Component {
         return (
             <div>
                 <form onSubmit={this.onFormSubmit}  className="flexContainer">
-                    <label><h2>Image Search: </h2></label>
+                    <label><h2>Things to burn (virtually!): </h2></label>
                     <input
                         className="inputStyle"
                         type="text"
