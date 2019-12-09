@@ -15,5 +15,10 @@ All code
     -   negotiate - part of hand-shake with SignalR (Special input binding of type signalRConnectionInfo)
     -   servicesChanged - handles change events from Cosmos
 
+Sample JSON returned from getServices
+
 ![Sample JSON from Function](/day08/getServices.png)
+
+Screenshot of UI
+
 ![Sample UI](/day08/northPoleUI.png)
