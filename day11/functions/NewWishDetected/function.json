@@ -1,0 +1,15 @@
+{
+  "bindings": [
+    {
+      "type": "cosmosDBTrigger",
+      "name": "documents",
+      "direction": "in",
+      "leaseCollectionName": "leases",
+      "connectionStringSetting": "ngkdos04cosm_DOCUMENTDB",
+      "databaseName": "day11",
+      "collectionName": "wishes",
+      "createLeaseCollectionIfNotExists": "true",
+      "feedPollDelay": 500
+    }
+  ]
+}

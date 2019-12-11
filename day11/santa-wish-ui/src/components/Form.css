@@ -1,0 +1,21 @@
+form {
+  border: thin solid green;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.formtext {
+  position: relative;
+  top: -48px;
+  background: white;
+  padding: 7px;
+  width: 120px;
+  color: red;
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  margin-right: 20px;
+}
