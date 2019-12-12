@@ -1,0 +1,21 @@
+{
+  "name": "day12",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "barbe": "^3.0.15",
+    "bluebird": "^3.7.2",
+    "gists": "^2.0.0",
+    "handlebars": "^4.5.3",
+    "match-all": "^1.2.5",
+    "redis": "^2.8.0",
+    "regex-emoji": "^2.0.7",
+    "showdown": "^1.9.1",
+    "showdown-emoji": "^1.0.5"
+  },
+  "devDependencies": {}
+}
