@@ -37,7 +37,7 @@ Here's the HTML rendered for the other card.
 
 ![Emma](/day12/holiday3.png)
 
-** Illustrating Caching
+## Illustrating Caching
 
 Here's some live metrics for the /Card function. Note the first two blue dots > 200ms when the Redis cache was empty and the functions had to retrieve markdown, handle emojis etc. The next four blue dots were when the "cards" were refreshed several times - HTML was already cached and the functions returned in < 50ms each time.
 
