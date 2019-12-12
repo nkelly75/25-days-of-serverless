@@ -3,12 +3,7 @@ const axios = require("axios"),
     matchAll = require("match-all"),
     barbe = require("barbe");
 
-let supportedEmojis = {
-    "heart_eyes": "https://github.githubassets.com/images/icons/emoji/unicode/1f60d.png?v8",
-    "santa": "https://github.githubassets.com/images/icons/emoji/unicode/1f385.png?v8",
-    "helicopter": "https://github.githubassets.com/images/icons/emoji/unicode/1f681.png?v8"
-};
-
+let supportedEmojis = null;
 
 function emojer(message, template, supportedEmojis) {
     var emojis = matchAll(message, regexEmoji()).toArray(),
@@ -27,11 +22,14 @@ function emojer(message, template, supportedEmojis) {
     return barbe(message, [":", ":"], objEmojis);
 };
 
+module.exports.getSupportedEmojis = async function () {
+    if (!supportedEmojis) {
+        var githubEmojis = await axios.get('https://api.github.com/emojis');
+        supportedEmojis = githubEmojis.data;
+    }
+}
+
 module.exports.convertEmojis = function () {
-    // if (!supportedEmojis) {
-    //     var githubEmojis = await axios.get('https://api.github.com/emojis');
-    //     supportedEmojis = githubEmojis.data
-    // }
     return [{
         type: "output",
         filter: function filter(text) {

@@ -6,6 +6,8 @@ const emoji = require('../shared/emoji');
 module.exports = async function (context, req) {
     context.log('Retrieving a card');
 
+    await emoji.getSupportedEmojis();
+
     const converter = new showdown.Converter({
         extensions: [emoji.convertEmojis]
     });
