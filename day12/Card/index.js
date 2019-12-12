@@ -1,11 +1,14 @@
 const Gists = require('gists');
 const gists = new Gists({});
-const showdown  = require('showdown');
-
-const converter = new showdown.Converter();
+const showdown = require('showdown');
+const emoji = require('../shared/emoji');
 
 module.exports = async function (context, req) {
     context.log('Retrieving a card');
+
+    const converter = new showdown.Converter({
+        extensions: [emoji.convertEmojis]
+    });
 
     if (req.params.id) {
         let html = null;
@@ -28,7 +31,7 @@ module.exports = async function (context, req) {
                 headers: {
                     "Content-Type": "text/html"
                 }
-            };        
+            };
         } else {
             context.res = {
                 status: 500,
