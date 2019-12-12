@@ -17,3 +17,4 @@ Each subdirectory corresponds to one of the days of the challenge:
 | Day 09 | Skipped |
 | Day 10 | Skipped |
 | [Day 11](https://github.com/nkelly75/25-days-of-serverless/tree/master/day11) | 2 x Functions, Cosmos DB including change trigger, React UI |
+| [Day 12](https://github.com/nkelly75/25-days-of-serverless/tree/master/day12) | 2 x Functions, Gist APIs, Github emoji APIs, Azure Redis Cache |
