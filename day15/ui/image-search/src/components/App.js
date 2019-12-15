@@ -3,9 +3,8 @@ import axios from 'axios';
 import SearchBar from './SearchBar';
 import ImageList from './ImageList';
 
-
-const IMAGE_SEARCH_FUNC = 'http://localhost:7071/api/ImageSearch?code=R3KMbSSkWj2WQOVlN0NRifcjohatOZmbkFYzlP8FRTf9abxWnHpiFQ==';
-// const IMAGE_SEARCH_FUNC = 'https://ngk25dos07.azurewebsites.net/api/ImageSearch?code=R3KMbSSkWj2WQOVlN0NRifcjohatOZmbkFYzlP8FRTf9abxWnHpiFQ==';
+// const IMAGE_SEARCH_FUNC = 'http://localhost:7071/api/ImageSearch?code=R3KMbSSkWj2WQOVlN0NRifcjohatOZmbkFYzlP8FRTf9abxWnHpiFQ==';
+const IMAGE_SEARCH_FUNC = 'https://ngk25dos15.azurewebsites.net/api/ImageSearch?code=tTvEsyS8Zr3V3P8GRfM8P7rcaG/fZ5VU6ch0N4MnSaah7h8nYIAESQ==';
 
 class App extends React.Component {
 

@@ -4,7 +4,8 @@ import './ImageResult.css';
 
 import InfoResult from './InfoResult';
 
-const IMAGE_DESCRIBE_FUNC = 'http://localhost:7071/api/ImageDescribe';
+// const IMAGE_DESCRIBE_FUNC = 'http://localhost:7071/api/ImageDescribe';
+const IMAGE_DESCRIBE_FUNC = 'https://ngk25dos15.azurewebsites.net/api/ImageDescribe';
 
 class ImageResult extends React.Component {
 
