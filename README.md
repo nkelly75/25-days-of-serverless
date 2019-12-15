@@ -1,6 +1,6 @@
 # Niall's 25 Days of Serverless
 
-Repo used to participate in https://25daysofserverless.com/
+Repo used to participate in https://25daysofserverless.com/. Microsoft's corresponding repo is here: https://github.com/microsoft/25-days-of-serverless. Check out their contributors page: https://github.com/microsoft/25-days-of-serverless/blob/master/CONTRIBUTORS.md.
 
 Each subdirectory corresponds to one of the days of the challenge:
 
@@ -18,3 +18,6 @@ Each subdirectory corresponds to one of the days of the challenge:
 | Day 10 | Skipped |
 | [Day 11](https://github.com/nkelly75/25-days-of-serverless/tree/master/day11) | 2 x Functions, Cosmos DB including change trigger, React UI |
 | [Day 12](https://github.com/nkelly75/25-days-of-serverless/tree/master/day12) | 2 x Functions, Gist APIs, Github emoji APIs, Azure Redis Cache |
+| Day 13 | Skipped |
+| Day 14 | Skipped |
+| [Day 15](https://github.com/nkelly75/25-days-of-serverless/tree/master/day15) | 2 x Functions, Cognitive Services Vision API, Unsplash (like day 7), React UI |
