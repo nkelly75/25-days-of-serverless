@@ -29,7 +29,6 @@ module.exports = async function (context, req) {
         if (result1.captions && result1.captions.length > 0) {
             let caption = result1.captions[0];
             result.caption = `${caption.text} (${caption.confidence.toFixed(2)} confidence)`;
-            // console.log(`This may be ${caption.text} (${caption.confidence.toFixed(2)} confidence)`);    
         }
 
         let result2 = await computerVisionClient.analyzeImage(describeURL, {
@@ -39,16 +38,13 @@ module.exports = async function (context, req) {
         if (result2.categories) {
             let categories = result2.categories;
             result.categories = formatCategories(categories);
-            // console.log(`Categories: ${formatCategories(categories)}`);
         }
         if (result2.tags) {
             let tags = result2.tags;
             result.tags = formatTags(tags);
-            // console.log(`Tags: ${formatTags(tags)}`);
         }
 
         context.res = {
-            // status: 200, /* Defaults to 200 */
             body: result
         };
     }
