@@ -3,7 +3,9 @@ import axios from 'axios';
 import SearchBar from './SearchBar';
 import ImageList from './ImageList';
 
-const IMAGE_SEARCH_FUNC = 'https://ngk25dos07.azurewebsites.net/api/ImageSearch?code=R3KMbSSkWj2WQOVlN0NRifcjohatOZmbkFYzlP8FRTf9abxWnHpiFQ==';
+
+const IMAGE_SEARCH_FUNC = 'http://localhost:7071/api/ImageSearch?code=R3KMbSSkWj2WQOVlN0NRifcjohatOZmbkFYzlP8FRTf9abxWnHpiFQ==';
+// const IMAGE_SEARCH_FUNC = 'https://ngk25dos07.azurewebsites.net/api/ImageSearch?code=R3KMbSSkWj2WQOVlN0NRifcjohatOZmbkFYzlP8FRTf9abxWnHpiFQ==';
 
 class App extends React.Component {
 
