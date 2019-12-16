@@ -21,3 +21,4 @@ Each subdirectory corresponds to one of the days of the challenge:
 | Day 13 | Skipped |
 | Day 14 | Skipped |
 | [Day 15](https://github.com/nkelly75/25-days-of-serverless/tree/master/day15) | 2 x Functions, Cognitive Services Vision API, Unsplash (like day 7), React UI |
+| [Day 16](https://github.com/nkelly75/25-days-of-serverless/tree/master/day16) | Simple node.js function, CI/CD with Azure DevOps, example of failing/passing tests |
