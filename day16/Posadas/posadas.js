@@ -10,4 +10,8 @@ module.exports = [{
     "day": 18,
     "host": "Antonio",
     "location": "Chapultepec"
+},{
+    "day": "19",
+    "host": "Niall",
+    "location": "deliberately misformed day property"
 }];
